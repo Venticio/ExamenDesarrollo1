@@ -9,7 +9,7 @@ El sitio incluye la página Inicio y las plantillas `pages/menu.html`, `pages/eq
 | N.º | Comportamiento observado | Causa técnica y ubicación | Corrección realizada | Prueba de verificación | Autor |
 |---|---|---|---|---|---|
 | 1 | ![Evidencia Incidencia 1](image.png)| ![Causa en el css, esta en column](image-1.png)| ![Cambiado a row](image-2.png)|![Prueba de como se visualiza con row](image-3.png) | Cambio detectado y hecho por Arwy|
-| 2 | | | | | |
+| 2 |Boton de nuestra carta lleva a eventos, y faltan los botones|El href era incorrecto y faltan los botones en index.html|Se corrigio el href y se añadieron los botones |Se observa al ejecutar la pagina|Vinicio| 
 | 3 | | | | | |
 | 4 | | | | | |
 | 5 | | | | | |
