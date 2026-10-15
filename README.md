@@ -33,3 +33,4 @@ Registrar las pruebas de funcionamiento a 1280 px y 375 px, enlaces y páginas.
 
 
 (Commit para crear main)
+(Commit para crear branches principales incluyendo develop)
