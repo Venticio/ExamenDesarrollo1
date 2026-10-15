@@ -252,3 +252,8 @@ img {
     flex-wrap: nowrap;
   }
 }
+@media (max-width: 375px) {
+  .nav-inner {
+    flex-direction: column;
+  }
+}
