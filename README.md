@@ -8,11 +8,11 @@ El sitio incluye la página Inicio y las plantillas `pages/menu.html`, `pages/eq
 
 | N.º | Comportamiento observado | Causa técnica y ubicación | Corrección realizada | Prueba de verificación | Autor |
 |---|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | ![Evidencia Incidencia 1](image.png)| ![Causa en el css, esta en column](image-1.png)| ![Cambiado a row](image-2.png)|![Prueba de como se visualiza con row](image-3.png) | Cambio detectado y hecho por Arwy|
+| 2 |Boton de nuestra carta lleva a eventos, y faltan los botones|El href era incorrecto y faltan los botones en index.html|Se corrigio el href y se añadieron los botones |Se observa al ejecutar la pagina|Vinicio| 
+| 3 |![Como se ve en el link al presionar, marca un #, no hay buen direccionamiento](image-4.png) | ![Como se observa, el direccinoamiento es hacia # en efecto](image-5.png)|![Se creo el direccionamiento hacia pages/menu.html](image-6.png) |![Al dar click en el boton, el link cambia y direcciona a menu](image-7.png) |Arwy|
+| 4 |![Como se ve el boton en rojo](image-4.png) | ![Ubicacion de la incidencia solucionada](incidencia4.png)|Por medio de la etiqueta del id se cambio el fondo|El boton se observa de diferente color |Vinicio |
+| 5 |![Al verse en 375 de ancho, los links se salen y permite desplazamiento incorrectamente](image-8.png) |![En el css no existia un media para el 375 de ancho](image-9.png) |![Se agrego el media de 375 para que sea el maximo y de ahi para abajo se vea correctamente](image-10.png) |![Asi esta ya corregido](image-11.png) |Arwy|
 
 ## Responsables de las funcionalidades
 
