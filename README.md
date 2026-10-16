@@ -17,7 +17,7 @@ El sitio incluye la página Inicio y las plantillas `pages/menu.html`, `pages/eq
 ## Responsables de las funcionalidades
 
 | Estudiante | Página asignada | Rama | Commits principales |
-|---|---|---|---|
+|Vinicio Castro Gonzalez|C01894|Equipo|ramaf2| Agregado el feature 2 a develop|
 |Arwy Zamora Segura - C28616 | Menu | ramaf1 | "Agregadas las imagenes, css y hecho el menu de la pagina menu.html" y tambien "Merge pull request #8 Feature 1 completa "|
 
 ## Evidencias Git
