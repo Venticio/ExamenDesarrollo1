@@ -18,7 +18,7 @@ El sitio incluye la página Inicio y las plantillas `pages/menu.html`, `pages/eq
 
 | Estudiante | Página asignada | Rama | Commits principales |
 |---|---|---|---|
-| | | | |
+|Arwy Zamora Segura - C28616 | Menu | ramaf1 | "Agregadas las imagenes, css y hecho el menu de la pagina menu.html" y tambien "Merge pull request #8 Feature 1 completa "|
 
 ## Evidencias Git
 
