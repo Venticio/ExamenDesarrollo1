@@ -5,10 +5,19 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>SAVIA | Nuestra carta</title>
     <link href="../css/styles.css" rel="stylesheet" />
+    <link href="../css/menu.css" rel="stylesheet" />
   </head>
   <body>
     <header class="site-header">
-      <!-- Espacio de trabajo: está pendiente de implementación. -->
+      <div class="container nav-inner">
+        <a class="logo" href="../index.html"> SAVIA. </a>
+        <nav aria-label="Navegaci&oacute;n principal" class="nav-links">
+          <a class="nav-contact" href="../index.html"> Inicio </a>
+          <a aria-current="page" href="menu.html"> Nuestra carta </a>
+          <a class="nav-contact" href="eventos.html"> Eventos </a>
+          <a class="nav-contact" href="equipo.html"> Equipo </a>
+        </nav>
+      </div>
     </header>
 
     <section class="page-hero">
@@ -16,10 +25,63 @@
         <span class="eyebrow"> SAVIA </span>
         <h1>Nuestra carta</h1>
         <p>Descubra nuestros platos favoritos.</p>
+        <nav class="tiempos-nav" aria-label="Tiempos del Menu">
+          <a href="#entrada">Entrada</a>
+          <a href="#plato-fuerte">Plato Fuerte</a>
+          <a href="#postre">Postre</a>
+        </nav>
       </div>
     </section>
     <main class="section container">
-      <!-- Espacio de trabajo: esta página está pendiente de implementación. -->
+      <div class="comidas">
+        <section class="entrada" id="entrada">
+          <h2>Entrada</h2>
+          <article class="tarjeta-platillo">
+            <img src="../images/entrada.jpg" alt="Entrada de Aros de Cebolla" />
+            <div class="info-platillo">
+              <h3>Aros de Cebolla</h3>
+              <p>
+                Aros de cebolla fritos preparados con ajo y especias. La salsa
+                recomendada es la salsa de tomate con ajo.
+              </p>
+              <p class="precio">₡3.500</p>
+            </div>
+          </article>
+        </section>
+        <section class="plato-fuerte" id="plato-fuerte">
+          <h2>Plato Fuerte</h2>
+          <article class="tarjeta-platillo">
+            <img src="../images/plato-fuerte.avif" alt="Pizza napolitana a la leña" />
+            <div class="info-platillo">
+              <h3>Pizza napolitana a la leña</h3>
+              <p>
+                Pizza napolitana con salsa de tomate, mozzarella, albahaca y
+                aceite de oliva. Preparada en horno de leña de forma tradicional. 
+                Masa preparada a mano con fermentación lenta y horneada a alta 
+                temperatura para obtener una textura crujiente y un sabor auténtico napolitano.
+              </p>
+              <p class="precio">₡8.000</p>
+            </div>
+          </article>
+        </section>
+        <section class="postre" id="postre">
+          <h2>Postre</h2>
+          <article class="tarjeta-platillo">
+            <img src="../images/postre.webp" alt="Suspiro limeño" />
+            <div class="info-platillo">
+              <h3>Suspiro limeño</h3>
+              <p>
+                Postre tradicional costarricense preparado con lima, azúcar y leche condensada. 
+                Tiene una textura suave y cremosa, con un sabor dulce y ligeramente ácido. 
+                Ademas es servido con una capa de merengue y espolvoreado con 
+                canela en polvo, y unas rodajas de fresa fresca al fondo para 
+                darle un toque de frescura y color.
+              </p>
+              <p class="precio">₡3.000</p>
+            </div>
+          </article>
+        </section>
+      </div>
     </main>
     <footer class="site-footer">
       <div class="container footer-inner">
